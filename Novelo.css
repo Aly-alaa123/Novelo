@@ -1,0 +1,299 @@
+.two, .three {
+    color: #000;
+    font-size: 44px;
+    line-height: 1.7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.two b {
+    font-family: cursive;
+    font-size: 50px;
+}
+.two {
+    margin-left: 30px;
+}
+#first {
+    text-align: center;
+    border-bottom: 15px double black;
+}
+h1 {
+    color: #000;
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    transition: text-shadow 2s;
+    border-bottom:8px dashed #000;
+    width: 30%;
+    margin-left: 30%;
+}
+h1:hover {
+    text-shadow: red 10px 0px 10px, blue -10px 0px 10px, green 0px 10px 10px, orange 0px -10px 10px;
+} 
+.one {
+    font-size: 55px;
+    color: #2F5A78;
+    font-family: serif;
+    font-weight: 800;
+}
+.one b {
+    font-weight: 900;
+    text-decoration: underline;
+}
+#goal, #types {
+    font-size: 50px;
+    color: white;
+    background-color: #2F5A78;
+    padding-left: 28px;
+    padding-right: 28px;
+    width: 400px;
+    border-radius: 90px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 10px 3px #000;
+    margin-left: 30px;
+}
+#second {
+    size: 50%;
+    padding-bottom: 60px;
+    border-bottom: 10px dotted #2F5A78;
+}
+#img {
+    float: right;
+    border-radius: 100px;
+}
+ul {
+    text-align: center;
+    display: flex;
+}
+li {
+    color:  rgb(209, 208, 208);
+    display: inline;
+    font-size: 24px;
+    margin: 10px;
+    border-bottom: 4px solid black;
+    width: 2px;
+    transition: width 1s;
+    margin-right: 150px;
+    margin-left: 150px;
+    text-align: center;
+}
+li:hover {
+    width: 100px;
+}
+h3 {
+    font-weight: bold;
+    color: rgb(209, 208, 208);
+    text-shadow: none;
+    font-size: 40px;
+    padding-left: 10px;
+    border-bottom: 20px solid black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#third {
+    padding-bottom: 60px;
+    border-bottom: 10px dotted #2F5A78;
+}
+#third p, #types {
+    margin-left: 550px;
+}
+#third p {
+    font-size: 35px;
+}
+#third b {
+    font-size: 44px;
+}
+#types {
+    width: 450px;
+    text-align: center;
+}
+#imgs {
+    float: left;
+    margin-left: 30px;
+}
+#adv, #dec {
+    display: inline;
+}
+#sci, #his {
+    display: inline;
+}
+#dec {
+    width: 280px;
+    height: 580px;
+    border-top-right-radius: 70px;
+    margin-right: 10px;
+}
+#adv {
+    width: 220px;
+    height: 580px;
+    border-top-left-radius: 70px;
+}
+#sci {
+    width: 200px;
+    height: 550px;
+    border-bottom-left-radius: 70px;
+}
+#his {
+    width: 300px;
+    height: 550px;
+    border-bottom-right-radius: 70px;
+    margin-right: 10px;
+}
+#adv, #dec, #sci, #his {
+    border: 6px solid #2F5A78;
+}
+#brief {
+    color: #2F5A78;
+}
+#lib {
+    display: flex;
+    width: 100%;
+}
+#fourth {
+    padding-bottom: 150px;
+    border-bottom: 10px dotted #2F5A78;
+}
+#fourth div {
+    flex: 1;
+    text-align: center;
+}
+#to {
+    color: #2F5A78;
+    background-image: url('331984115_3154410751517540_7911678706341995136_n.jpg');
+    width: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 35px;
+    border:2px solid #2F5A78;
+    font-weight: 900;
+}
+#to button {
+    color: #2F5A78;
+    border: 2px solid transparent;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid #2F5A78;
+    border-radius: 30px;
+}
+#don {
+    color: #2F5A78;
+    background-image: url('331615367_1230706914525837_6040597898413731447_n.jpg');
+    width: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 35px;
+    border:2px solid #2F5A78;
+    font-weight: 900;
+}
+#don button {
+    color: #2F5A78;
+    border: 2px solid transparent;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid #2F5A78;
+    border-radius: 30px;
+}
+#jane {
+    color: #2F5A78;
+    background-image: url('331545195_750019973003580_248555690009860632_n.jpg');
+    width: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 35px;
+    border:2px solid #2F5A78;
+    font-weight: 900;
+}
+#jane button {
+    color: #2F5A78;
+    border: 2px solid transparent;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid #2F5A78;
+    border-radius: 30px;
+}
+#more {
+    color: #2F5A78;
+    background-image: url('331898000_602320865043714_8912126514575066275_n.jpg');
+    width: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 35px;
+    border:2px solid #2F5A78;
+    font-weight: 900;
+}
+#more button {
+    color: #2F5A78;
+    border: 2px solid transparent;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid #2F5A78;
+    border-radius: 30px;
+}
+#libr {
+    font-family: cursive;
+    text-align: center;
+    font-size: 70px;
+    color: #2F5A78;
+    background-color: #000;
+    border: 4px groove #2F5A78;
+    width: 300px;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+}
+.footer {
+    font-family: cursive;
+    text-align: center;
+    font-size: 70px;
+    color: #2F5A78;
+    background-color: #000;
+    border: 4px groove #2F5A78;
+    width: 400px;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+}
+textarea {
+    color: white;
+    border: 7px solid #2F5A78;
+    background-color: #000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+input {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #000;
+    width: 90px;
+    height: 30px;
+    background-color: #2F5A78;
+    border-radius: 40px;
+    border: 2px solid #000;
+    font-weight: 800;
+}
+footer a {
+    text-decoration: none;
+    color: #2F5A78;
+}
+footer p {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #2F5A78;
+    background-color: #000;
+    border-top: 3px solid #2F5A78;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+header {
+    background-color: #2F5A78;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    margin: 0px;
+}
+body {
+    margin-top: 250px;
+    background-color: rgb(209, 208, 208);
+}
